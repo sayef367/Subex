@@ -15,3 +15,5 @@ click this link = https://sayef367.github.io/Subex/
 ![](Image/delete data.png)
 ## Update data
 ![](Image/update data.png)
+## ascending and descending
+![](Image/ascending and descending.png)
