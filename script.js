@@ -3,6 +3,17 @@ const form = document.getElementById('form');
 const message = document.getElementById("errMes");
 message.innerHTML = "";
 
+fetch('subexDB.json')
+  .then(function(response){
+    return response.json();
+  })
+  .then(function(resData){
+    for(let data of resData){
+      insertNewRecord(data);
+    }
+  });
+
+
 function onFormSubmit(e) {
 	event.preventDefault();
   subexData = submitData();
