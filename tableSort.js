@@ -5,10 +5,10 @@ function sortTableByColumn(table, column, asc = true) {
 
     // Sort each row
     const sortedRows = rows.sort((a, b) => {
-        const CollumText = a.querySelector(`td:nth-child(${ column + 1 })`).textContent.trim();
-        const bColText = b.querySelector(`td:nth-child(${ column + 1 })`).textContent.trim();
+        const aCollumText = a.querySelector(`td:nth-child(${ column + 1 })`).textContent.trim();
+        const bCollumText = b.querySelector(`td:nth-child(${ column + 1 })`).textContent.trim();
 
-        return CollumText > bColText ? (1 * dirModifier) : (-1 * dirModifier);
+        return aCollumText > bCollumText ? (1 * dirModifier) : (-1 * dirModifier);
     });
 
     // Remove all existing TRs from the table
