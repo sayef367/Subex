@@ -6,14 +6,14 @@ click this link = https://sayef367.github.io/Subex/
 ### `index.html`
 
 ## Main Home Page
-![](Image/main home.png)
+![](Image/mainHome.png)
 ## Form validation 
-![](Image/form validation.png)
+![](Image/formValidation.png)
 ## New Data add the table
-![](Image/add new data.png)
+![](Image/addNewData.png)
 ## Delete few data
-![](Image/delete data.png)
+![](Image/deleteData.png)
 ## Update data
-![](Image/update data.png)
+![](Image/updateData.png)
 ## ascending and descending
-![](Image/ascending and descending.png)
+![](Image/ascendingAndDescending.png)
